@@ -1,14 +1,10 @@
-# scheduler-component
+# Scheduler component
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+This Integrant component is responsible for scheduling recurring tasks to be executed at a given time.
 
 ## License
 
-Copyright © 2025 FIXME
+Copyright © 2025 Bruno do Nascimento Maciel
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at

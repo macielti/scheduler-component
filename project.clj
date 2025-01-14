@@ -1,4 +1,4 @@
-(defproject scheduler-component "0.1.0-SNAPSHOT"
+(defproject net.clojars.macielti/scheduler-component "0.1.0"
 
   :description "FIXME: write description"
 
