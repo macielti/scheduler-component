@@ -2,6 +2,10 @@
 
 This Integrant component is responsible for scheduling recurring tasks to be executed at a given time.
 
+## How To Use
+
+Take a look on the integration tests to see how to use the component.
+
 ## License
 
 Copyright © 2025 Bruno do Nascimento Maciel
