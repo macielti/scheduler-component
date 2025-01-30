@@ -9,7 +9,9 @@
   [handler-fn]
   (interceptor/interceptor
    {:name  ::job-handler-fn-interceptor
-    :enter handler-fn}))
+    :enter (fn [context]
+             (handler-fn context)
+             context)}))
 
 (defmethod ig/init-key ::scheduler
   [_ {:keys [jobs components]}]
