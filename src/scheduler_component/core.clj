@@ -19,6 +19,7 @@
                        (chime/chime-at ((:schedule job'))
                                        (fn [as-of]
                                          (chain/execute {:components components
+                                                         :job-id     job-key-id
                                                          :as-of      as-of}
                                                         (conj (or (:interceptors job') []) (handler-fn->interceptor (:handler job'))))))))
                    (keys jobs))})

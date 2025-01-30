@@ -1,4 +1,4 @@
-(defproject net.clojars.macielti/scheduler-component "0.2.0"
+(defproject net.clojars.macielti/scheduler-component "0.2.1"
 
   :description "Schedule recurring tasks to be executed at a given time."
 
@@ -10,6 +10,7 @@
   :dependencies [[org.clojure/clojure "1.12.0"]
                  [jarohen/chime "0.3.3"]
                  [io.pedestal/pedestal.interceptor "0.7.2"]
+                 [clj-commons/iapetos "0.1.14"]
                  [integrant "0.13.1"]]
 
   :profiles {:dev {:plugins        [[lein-shell "0.5.0"]
