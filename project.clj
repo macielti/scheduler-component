@@ -1,4 +1,4 @@
-(defproject net.clojars.macielti/scheduler-component "0.2.1"
+(defproject net.clojars.macielti/scheduler-component "0.2.2"
 
   :description "Schedule recurring tasks to be executed at a given time."
 
